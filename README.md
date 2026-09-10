@@ -187,7 +187,7 @@ None of this is advice the agent is free to skip. `dramaturgy.md` loads before a
   </tr>
   <tr>
     <td colspan="3" align="center" width="360"><a href="image/references/nano-banana.md"><img width="38" alt="Nano Banana" src="assets/logos/nanobanana-color.svg"><br><b>Nano Banana</b></a><br><sub>2 Lite · 2 · Pro <em>(Gemini image family)</em></sub></td>
-    <td colspan="3" align="center" width="360"><a href="image/references/gpt-image.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/openai-dark.svg"><img width="38" alt="GPT Image" src="assets/logos/openai.svg"></picture><br><b>GPT Image</b></a><br><sub>2 · legacy 1.5 / 1 / mini</sub></td>
+    <td colspan="3" align="center" width="360"><a href="image/references/gpt-image.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/openai-dark.svg"><img width="38" alt="GPT Image" src="assets/logos/openai.svg"></picture><br><b>GPT Image</b></a><br><sub>2.5 Flare · 2.5 Sunburst · legacy 2</sub></td>
   </tr>
   <tr>
     <th colspan="6" align="center"><sub>COVERED BY THE <a href="video/references/universal-rules.md">UNIVERSAL-RULES</a> LAYER</sub></th>
@@ -223,7 +223,7 @@ Output formats: a single prompt, a stitched multi-clip sequence with continuity 
 
 ## What the image skill does
 
-Art direction for still images: editorial and product photography, posters, UI mockups, infographics, edits with hard preservation, character continuity across a series, storyboards and animatic keyframes for the video pipeline. It picks between Nano Banana and GPT Image 2 per task (grounding of real places, extreme aspect ratios and cheap batches go to Nano Banana; dense text, brand assets and preservation-critical edits go to GPT Image 2), then writes the prompt in that model's native structure.
+Art direction for still images: editorial and product photography, posters, UI mockups, infographics, edits with hard preservation, character continuity across a series, storyboards and animatic keyframes for the video pipeline. It picks between Nano Banana and GPT Image 2.5 per task (grounding of real places, extreme aspect ratios and cheap batches go to Nano Banana; dense text, brand assets and preservation-critical edits go to GPT Image 2.5), then writes the prompt in that model's native structure.
 
 The two skills chain: `image` builds the character sheets and keyframes, `video` turns them into motion with a proper motion brief instead of a re-described scene.
 
@@ -303,4 +303,4 @@ Vendor marks in the model table come from [lobe-icons](https://github.com/lobehu
 
 **CC BY 4.0** — use it, fork it, build on it, commercially too. One rule: **credit the author**. Any copy or derivative — including skills assembled by AI agents from these files — must keep the attribution line: *Serge Shima — [github.com/smixs/visual-skills](https://github.com/smixs/visual-skills)*. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-**Tags:** `claude` · `claude-skills` · `ai-video-generation` · `ai-image-generation` · `seedance` · `kling` · `veo` · `nano-banana` · `gpt-image-2` · `ai-film-directing` · `storyboard` · `prompt-engineering`
+**Tags:** `claude` · `claude-skills` · `ai-video-generation` · `ai-image-generation` · `seedance` · `kling` · `veo` · `nano-banana` · `gpt-image-2.5` · `ai-film-directing` · `storyboard` · `prompt-engineering`

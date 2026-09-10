@@ -187,7 +187,7 @@ Door swings shut, the light dies on his face.
   </tr>
   <tr>
     <td colspan="3" align="center" width="360"><a href="image/references/nano-banana.md"><img width="38" alt="Nano Banana" src="assets/logos/nanobanana-color.svg"><br><b>Nano Banana</b></a><br><sub>2 Lite · 2 · Pro <em>(семейство Gemini)</em></sub></td>
-    <td colspan="3" align="center" width="360"><a href="image/references/gpt-image.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/openai-dark.svg"><img width="38" alt="GPT Image" src="assets/logos/openai.svg"></picture><br><b>GPT Image</b></a><br><sub>2 · legacy 1.5 / 1 / mini</sub></td>
+    <td colspan="3" align="center" width="360"><a href="image/references/gpt-image.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/openai-dark.svg"><img width="38" alt="GPT Image" src="assets/logos/openai.svg"></picture><br><b>GPT Image</b></a><br><sub>2.5 Flare · 2.5 Sunburst · legacy 2</sub></td>
   </tr>
   <tr>
     <th colspan="6" align="center"><sub>ЗАКРЫТЫ СЛОЕМ <a href="video/references/universal-rules.md">УНИВЕРСАЛЬНЫХ ПРАВИЛ</a></sub></th>
@@ -223,7 +223,7 @@ Door swings shut, the light dies on his face.
 
 ## Что делает скилл image
 
-Арт-дирекшн для статики: editorial и продуктовая съёмка, постеры, UI-моки, инфографика, правки с жёстким сохранением исходника, консистентность персонажа в серии, раскадровки и кейфреймы для видео-пайплайна. Скилл сам выбирает между Nano Banana и GPT Image 2 (реальные места, экстремальные пропорции и дешёвые батчи уходят в Nano Banana; плотный текст, брендовые ассеты и правки с сохранением - в GPT Image 2) и пишет промпт в родной структуре выбранной модели.
+Арт-дирекшн для статики: editorial и продуктовая съёмка, постеры, UI-моки, инфографика, правки с жёстким сохранением исходника, консистентность персонажа в серии, раскадровки и кейфреймы для видео-пайплайна. Скилл сам выбирает между Nano Banana и GPT Image 2.5 (реальные места, экстремальные пропорции и дешёвые батчи уходят в Nano Banana; плотный текст, брендовые ассеты и правки с сохранением - в GPT Image 2.5) и пишет промпт в родной структуре выбранной модели.
 
 Скиллы работают в связке: `image` собирает character sheet и кейфреймы, `video` оживляет их через motion brief, а не через пересказ сцены заново.
 
@@ -303,4 +303,4 @@ cp -r visual-skills/video visual-skills/image ~/.claude/skills/
 
 **CC BY 4.0** - используйте, форкайте, стройте своё, в том числе коммерчески. Одно правило: **указывайте автора**. Любая копия или производная, включая скиллы, собранные AI-агентами из этих файлов, обязана сохранить строку атрибуции: *Serge Shima - [github.com/smixs/visual-skills](https://github.com/smixs/visual-skills)*. Подробности в [LICENSE](LICENSE) и [NOTICE](NOTICE).
 
-**Теги:** `claude` · `claude-skills` · `ai-video-generation` · `ai-image-generation` · `seedance` · `kling` · `veo` · `nano-banana` · `gpt-image-2` · `ai-film-directing` · `storyboard` · `prompt-engineering`
+**Теги:** `claude` · `claude-skills` · `ai-video-generation` · `ai-image-generation` · `seedance` · `kling` · `veo` · `nano-banana` · `gpt-image-2.5` · `ai-film-directing` · `storyboard` · `prompt-engineering`

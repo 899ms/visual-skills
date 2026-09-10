@@ -44,7 +44,7 @@ Constraints: All 9 panels must be clearly separated, no merged cells, every pane
 - `{language}` — "Chinese" / "English" / "bilingual"
 
 **Recommended size:** 1536x1024 (landscape)
-**Model:** GPT Image 2 `quality: high` (text-heavy — timestamps and titles need legibility)
+**Model:** GPT Image 2.5 `quality: high` (text-heavy — timestamps and titles need legibility)
 **Common pitfalls:**
 - Omitting panel numbers causes the model to merge or skip panels
 - Vague scene descriptions produce near-identical panels — each must have a distinct action, angle, or subject
@@ -81,7 +81,7 @@ Constraints: same person in every panel, no wardrobe changes between panels, no 
 - `{lighting_style}` — (e.g., "single key light from upper left, subtle fill from right")
 
 **Recommended size:** 1024x1024 (square) or 1024x1536 (vertical for portrait emphasis)
-**Model:** GPT Image 2 `quality: medium` or Nano Banana Pro (both handle photorealistic portraits well)
+**Model:** GPT Image 2.5 `quality: medium` or Nano Banana Pro (both handle photorealistic portraits well)
 **Common pitfalls:**
 - Not specifying "same person" in every panel — model may generate four different people
 - Omitting which quadrant gets which angle — model arranges arbitrarily
@@ -120,7 +120,7 @@ Constraints: same person across all panels, consistent color grading, no stock-p
 - `{typography_instruction}` — e.g., `Text: "{HEADLINE}" in bold condensed white, overlaid on Panel 1 lower third` or omit for no text
 
 **Recommended size:** 1536x1024 (horizontal triptych) or 1024x1536 (vertical triptych)
-**Model:** GPT Image 2 `quality: medium` — if text overlay needed, use `quality: high`
+**Model:** GPT Image 2.5 `quality: medium` — if text overlay needed, use `quality: high`
 **Common pitfalls:**
 - Not specifying panel order — "hero, close-up, action" without left/center/right assignment
 - Lighting inconsistency when mixing indoor close-up with outdoor hero shot — specify unified lighting
@@ -203,7 +203,7 @@ Constraints: same person and wardrobe in every frame, no costume changes, consis
 - `{lighting_description}` — (e.g., "overcast natural light, soft shadows")
 
 **Recommended size:** 1536x1024 (landscape, 3x2 grid)
-**Model:** GPT Image 2 `quality: medium` or Nano Banana Pro
+**Model:** GPT Image 2.5 `quality: medium` or Nano Banana Pro
 **Common pitfalls:**
 - Not naming each frame explicitly — "various angles" is too vague, the model needs per-frame instructions
 - Top-down and low-angle in the same grid confuse the model if you don't anchor each frame to a grid position
@@ -241,7 +241,7 @@ Constraints: identical composition and camera angle on both sides, same lighting
 - `{use_case}` — "product marketing", "renovation portfolio", "skincare results"
 
 **Recommended size:** 1536x1024 (landscape — gives each half a portrait-like proportion)
-**Model:** GPT Image 2 `quality: medium` — for text labels ("BEFORE" / "AFTER"), use `quality: high`
+**Model:** GPT Image 2.5 `quality: medium` — for text labels ("BEFORE" / "AFTER"), use `quality: high`
 **Common pitfalls:**
 - Not specifying "same camera angle both sides" — model may show two completely different viewpoints
 - Without a visible divider, the two halves can merge into one ambiguous scene
@@ -292,7 +292,7 @@ Quality: high
 - `{language}` — caption language
 
 **Recommended size:** 1024x1536 (portrait — 3 columns x 4 rows needs vertical space)
-**Model:** GPT Image 2 `quality: high` (text-heavy — scene numbers and captions must be readable)
+**Model:** GPT Image 2.5 `quality: high` (text-heavy — scene numbers and captions must be readable)
 **Common pitfalls:**
 - Character drift is the biggest risk at 12 panels — repeat character design details in the prompt, not just "same character"
 - Without explicit scene numbering in the prompt, panels may appear in random order
@@ -314,9 +314,9 @@ Quality: high
 **Reading order:** State it: "left-to-right, top-to-bottom" or "numbered 1-9 starting top-left." Without this, narrative flow may be jumbled.
 
 **Model selection summary:**
-- Text/labels in panels --> GPT Image 2 `quality: high`
+- Text/labels in panels --> GPT Image 2.5 `quality: high`
 - No text, complex composition --> Nano Banana Pro
-- Budget/exploration --> Nano Banana 2 or GPT Image 2 `quality: low`
+- Budget/exploration --> Nano Banana 2 or GPT Image 2.5 `quality: low`
 
 ---
 
